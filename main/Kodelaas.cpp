@@ -11,12 +11,12 @@ void Kodelaas::attach() {
   _Servo1.attach(_servoPin);
 }
 
-//setter servoen i en posisjon hvor øtten låses.
+//setter servoen i en posisjon hvor bøtten låses.
 void Kodelaas::laas() {
     _Servo1.write(70);
 }
 
-//setter servoen i en posisjon hvor øtten låses opp.
+//setter servoen i en posisjon hvor bøtten låses opp.
 void Kodelaas::laasOpp() {
     _Servo1.write(120);
 }
